@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live-Chat</title>
+     <!-- script tag to coonnect web site and server..by adding a script tag regarding scoketio js  -->
+     
+     <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+     <script   defer src="js/client1.js"></script>
+   
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img src="live-chat-icon-7403.png" alt="" class="logo">
+    </nav>
+    <div class="container">
+        <!-- <div class="message right">hi i am kolla yaswanth</div>
+        <div class="message left">default message</div> -->
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageinp" id="messageinp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
